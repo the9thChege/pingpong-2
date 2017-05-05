@@ -38,8 +38,7 @@ $(document).ready(function() {
     }
     divx.appendChild(ul);
 
-    document.body.style.backgroundImage = "url('img/neuroshima.png')";
-    document.main.style.backgroundImage = "url('img/neuroshima.png')";
+    document.getElementById("top").style.backgroundImage = "url('img/waves_banner.jpg')";
 
     event.preventDefault();
   });
