@@ -35,10 +35,8 @@ For numbers divisible by 15, the program returns "pingpong"
   Input Example: 45
   Output Example: pingpong
 
-The word "ping" is displayed in red, "pong" is displayed in green and "pingpong" is shown in blue.
+The website has background-color animation
 
 ++The program has a refresh button.
-
-++The program's background-color changes every 10 seconds.
 ## License
 None.

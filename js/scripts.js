@@ -19,7 +19,6 @@ var dividend = function(number) {
 $(document).ready(function() {
 
   $("form#input").submit(function(event) {
-
     var endResult = parseInt($("#entry").val());
     var numberList = [];
 
@@ -38,6 +37,9 @@ $(document).ready(function() {
       ul.appendChild(li);
     }
     divx.appendChild(ul);
+
+    document.body.style.backgroundImage = "url('img/neuroshima.png')";
+    document.body.main.style.backgroundImage = "url('img/neuroshima.png')";
 
     event.preventDefault();
   });

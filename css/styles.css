@@ -1,5 +1,11 @@
 body{
   background-color: grey;
+  animation-name: colorChanger;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-delay: 10s;
 }
 
 .top {
@@ -11,6 +17,11 @@ body{
   background-color: #edc253;
 }
 
+.top:hover{
+  background-color: #f99247;
+  transition: 3s;
+}
+
 .left {
   position: absolute;
   left: 0;
@@ -18,7 +29,7 @@ body{
   bottom: 0;
   width: 300px;
   text-indent: 20px;
-  background-color: #8bd77c;
+  background-color: #069f0f;
 }
 
 .main {
@@ -28,16 +39,48 @@ body{
   right: 0;
   bottom: 0;
   background-color: grey;
+  animation-name: colorChanger;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-delay: 10s;
 }
 
-.main-inner{
+.mainInner{
   position: absolute;
   left: 75px;
   top: 75px;
   right: 100px;
   bottom: 0;
+  animation-name: colorChanger;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-delay: 10s;
 }
 
 .labelRow{
   left: 10px;
+}
+
+@keyframes colorChanger{
+  0%{background-color: grey;}
+  25%{background-color: #868a67;}
+  50%{background-color: #b2b331;}
+  75%{background-color: #868a67;}
+  100%{background-color: grey;}
+}
+
+.textTitles{
+  color: #e6cf5b;
+}
+
+.textText{
+  color: white;
+}
+
+h1{
+  font-size: 50px;
 }
