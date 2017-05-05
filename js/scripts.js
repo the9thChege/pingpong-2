@@ -28,7 +28,7 @@ $(document).ready(function() {
     var ul = document.createElement('ul');
 
     for (var val = 1; val <= endResult; val++) {
-      numberList.push(val);
+      numberList.push(dividend(val));
     }
 
     for (var index = 0; index < numberList.length; index++) {
