@@ -39,7 +39,7 @@ $(document).ready(function() {
     divx.appendChild(ul);
 
     document.body.style.backgroundImage = "url('img/neuroshima.png')";
-    document.body.main.style.backgroundImage = "url('img/neuroshima.png')";
+    document.main.style.backgroundImage = "url('img/neuroshima.png')";
 
     event.preventDefault();
   });

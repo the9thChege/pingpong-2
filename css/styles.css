@@ -18,7 +18,7 @@ body{
 }
 
 .top:hover{
-  background-color: #f99247;
+  background-color: #b42c44;
   transition: 3s;
 }
 
@@ -67,9 +67,9 @@ body{
 
 @keyframes colorChanger{
   0%{background-color: grey;}
-  25%{background-color: #868a67;}
-  50%{background-color: #b2b331;}
-  75%{background-color: #868a67;}
+  25%{background-color: #1e5283;}
+  50%{background-color: #359f93;}
+  75%{background-color: #1e5283;}
   100%{background-color: grey;}
 }
 
